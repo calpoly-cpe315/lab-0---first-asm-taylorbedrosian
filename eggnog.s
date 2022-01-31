@@ -26,7 +26,7 @@ message:
 	.asciz "Eggnog, holiday\n"
 
 message2:
-   .asciz "Cozy by the fireplace,\n"
+        .asciz "Cozy by the fireplace,\n"
 
 message3:
-   .asciz "Better with some rum.\n"
+        .asciz "Better with some rum.\n"
