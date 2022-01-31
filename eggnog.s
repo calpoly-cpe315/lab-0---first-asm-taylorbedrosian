@@ -7,10 +7,10 @@ main:
     // Load the argument and perform the call. Like 'printf("...")' in C.
 	ldr	x0, =message
 	bl	printf
-   ldr   x0, =message2
-   bl printf
-   ldr   x0, =message3
-   bl printf
+        ldr   x0, =message2
+        bl printf
+        ldr   x0, =message3
+        bl printf
 
     // initialize the return value in the return register
 	mov	x0, 0
